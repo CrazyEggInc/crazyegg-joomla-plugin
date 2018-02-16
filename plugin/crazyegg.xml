@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="plugin" group="system">
+    <name>Crazy Egg</name>
+    <author>Crazy Egg, Inc.</author>
+    <creationDate>February 2018</creationDate>
+    <copyright>Copyright (C) 2018 Crazy Egg, Inc.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html; see LICENSE.txt</license>
+    <authorEmail>support@crazyegg.com</authorEmail>
+    <authorUrl>www.crazyegg.com</authorUrl>
+    <version>3.8.5</version>
+    <description>PLG_SYSTEM_CRAZY_EGG_DESCRIPTION</description>
+    <files>
+        <filename plugin="crazyegg">crazyegg.php</filename>
+        <filename>index.html</filename>
+        <folder>crazyegg</folder>
+        <folder>language</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_crazyegg.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_crazyegg.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params" addfieldpath="plugins/system/crazyegg/crazyegg/admin">
+            <fieldset name="basic">
+                <field name="account_number"
+                       type="text"
+                       default=""
+                       description="PLG_SYSTEM_CRAZY_EGG_ACC_NUMBER_DESC"
+                       label="PLG_SYSTEM_CRAZY_EGG_ACC_NUMBER_LABEL"
+                />
+                <field type="spacer" name="myspacer" hr="true" />
+                <field name="spacer_info"
+                       type="spacerinfo"
+                       default=""
+                       label=""
+                       description=""
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
