@@ -15,7 +15,7 @@ jimport( 'joomla.plugin.plugin' );
 
 class plgSystemCrazyEgg extends JPlugin
 {
-    function plgSystemCrazyEgg( &$subject, $params )
+    function __construct( &$subject, $params )
     {
         parent::__construct($subject, $params);
     }
