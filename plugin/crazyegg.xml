@@ -7,7 +7,7 @@
     <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html; see LICENSE.txt</license>
     <authorEmail>support@crazyegg.com</authorEmail>
     <authorUrl>www.crazyegg.com</authorUrl>
-    <version>3.8.5</version>
+    <version>3.8.6</version>
     <description>PLG_SYSTEM_CRAZY_EGG_DESCRIPTION</description>
     <files>
         <filename plugin="crazyegg">crazyegg.php</filename>
@@ -38,4 +38,7 @@
             </fieldset>
         </fields>
     </config>
+    <updateservers>
+        <server type="extension">https://ce-development.s3.amazonaws.com/joomla/updates.xml</server>
+    </updateservers>
 </extension>
