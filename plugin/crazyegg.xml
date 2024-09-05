@@ -39,6 +39,6 @@
         </fields>
     </config>
     <updateservers>
-        <server type="extension">https://ce-development.s3.amazonaws.com/joomla/updates.xml</server>
+        <server type="extension">https://plugins.crazyeggcdn.com/joomla/updates.xml</server>
     </updateservers>
 </extension>
