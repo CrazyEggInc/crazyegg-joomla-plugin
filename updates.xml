@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+    <update>
+        <name>Crazy Egg</name>
+        <description>PLG_SYSTEM_CRAZY_EGG_DESCRIPTION</description>
+        <element>crazyegg</element>
+        <type>plugin</type>
+        <version>3.8.6</version>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        <downloads>
+          <downloadurl type="full" format="zip">https://plugins.crazyeggcdn.com/joomla/crazyegg-joomla-plugin-3.8.6.zip</downloadurl>
+        </downloads>
+        <sha512>57281d1902390d8450d257e7736481b659438858a71dcc512452d46188131107d07d1ad33afdb01710bc38166db7f366358d282da002a8dc2371b8890eaca6b6</sha512>
+        <maintainer>CrazyEgg</maintainer>
+        <maintainerurl>https://crazyegg.com</maintainerurl>
+        <targetplatform name="joomla" version=".*" />
+        <php_minimum>5.3.10</php_minimum>
+    </update>
+</updates>
